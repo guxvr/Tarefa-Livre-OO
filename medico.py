@@ -1,3 +1,4 @@
+#Este código é apenas um teste de herança e polimorfismo
 class Medico:
     def __init__(self, nome):
         self.nome = nome
