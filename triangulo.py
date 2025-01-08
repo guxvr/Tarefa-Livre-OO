@@ -6,13 +6,13 @@ class Triangulo:
         self.__lado2 = lado2
         self.__lado3 = lado3
 
-    # Método para verificar se os lados formam um triângulo
+    
     def __existe_triangulo(self):
         return (self.__lado1 < self.__lado2 + self.__lado3 and
                 self.__lado2 < self.__lado1 + self.__lado3 and
                 self.__lado3 < self.__lado1 + self.__lado2)
 
-    # Método para calcular os cossenos dos ângulos
+    
     def __calcular_cossenos(self):
         a, b, c = self.__lado1, self.__lado2, self.__lado3
         cos_a = ((b**2) + (c**2) - (a**2)) / (2 * b * c)
@@ -20,25 +20,25 @@ class Triangulo:
         cos_c = ((b**2) + (a**2) - (c**2)) / (2 * b * a)
         return cos_a, cos_b, cos_c
 
-    # Método público para calcular senos
+    
     def __calcular_senos(self, cossenos):
         return [math.sqrt(1 - cos**2) for cos in cossenos]
 
-    # Método para calcular a área e o perímetro
+    
     def __calcular_area_e_perimetro(self):
         a, b, c = self.__lado1, self.__lado2, self.__lado3
         p = (a + b + c) / 2  # Semiperímetro
         area = math.sqrt(p * (p - a) * (p - b) * (p - c))
         return area, 2 * p
 
-    # Método para calcular raios dos círculos inscrito e circunscrito
+    
     def __calcular_raios(self, area):
         p = (self.__lado1 + self.__lado2 + self.__lado3) / 2
         r = area / p
         R = (self.__lado1 * self.__lado2 * self.__lado3) / (4 * area)
         return r, R
 
-    # Método para determinar o tipo de triângulo
+    
     def __determinar_tipo(self):
         a, b, c = sorted([self.__lado1, self.__lado2, self.__lado3])  # Ordena os lados
         if (b**2) > (a**2) + (c**2):
@@ -48,7 +48,7 @@ class Triangulo:
         else:
             return "Triângulo acutângulo"
 
-    # Método principal para processar o triângulo
+    
     def processar_triangulo(self):
         if not self.__existe_triangulo():
             return "O triângulo não existe"
@@ -71,7 +71,7 @@ class Triangulo:
         return resultado
 
 
-# Classe para gerenciar a interação com o usuário
+
 class InterfaceTriangulo:
     @staticmethod
     def executar():
@@ -95,6 +95,6 @@ class InterfaceTriangulo:
             print(f"Tipo: {resultado['Tipo']}")
 
 
-# Executa o programa
+
 if __name__ == "__main__":
     InterfaceTriangulo.executar()
