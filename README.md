@@ -2,7 +2,9 @@
 -------------------------------------------------------------------------------------------------------------------
 
 > Sistema de Gestão de Consultas Médicas
-    Este projeto é um Sistema de Gestão de Consultas Médicas que permite gerenciar médicos, consultas e pacientes. Ele foi desenvolvido com foco nos conceitos de Programação Orientada a Objetos (POO), incluindo herança, polimorfismo e encapsulamento.
+
+  Este projeto inspirado na série médica House M.D. é um Sistema de Gestão de Consultas Médicas  que permite gerenciar médicos, consultas e pacientes. Ele foi desenvolvido com foco nos conceitos de Programação Orientada a Objetos, incluindo herança, polimorfismo e encapsulamento.
+  
 
 * Funcionalidades Principais
 - Listar médicos disponíveis: Exibe os médicos cadastrados no sistema, com suas especialidades e status de disponibilidade.
