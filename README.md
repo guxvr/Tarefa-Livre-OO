@@ -98,7 +98,5 @@ Atividade livre - Encapsulamento, Herança e Polimorfismo
 
 8. Preparar tudo em um repositório do github.
 -------------------------------------------------------------------------------------------------------------------
-tv.py : métodos e atributos; classe construtora.
-garagem.py : encapsulamento; interação com usuário.
 triangulo.py : encapsulamento; interação com usuário.
 medico.py : herança e polimorfismo.
