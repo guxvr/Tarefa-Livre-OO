@@ -109,12 +109,12 @@ class SistemaHospital:
 
     def inicializar_medicos(self):
         return [
-            Cardiologista("12345", "Dr. João Silva"),
-            Dermatologista("67890", "Dra. Maria Oliveira"),
-            Ortopedista("11223", "Dr. Pedro Santos"),
-            Pediatra("44556", "Dra. Ana Costa"),
-            Neurologista("77889", "Dr. Carlos Lima"),
-            Ginecologista("99001", "Dra. Fernanda Souza")
+            Cardiologista("37293", "Dr. Chase"),
+            Dermatologista("67890", "Dr. Taub"),
+            Ortopedista("11223", "Dr. Wilson"),
+            Pediatra("40981", "Dra. Cameron"),
+            Neurologista("22801", "Dr. Foreman"),
+            Ginecologista("11359", "Dr. House")
         ]
 
     def listar_medicos(self):
@@ -125,7 +125,7 @@ class SistemaHospital:
         try:
             medico = self._medicos[indice_medico - 1]
             medico.marcar_consulta()
-            self.salvar_dados("dados_medicos.json")  # Salva os dados após marcar consulta
+            self.salvar_dados("dados_medicos.json")  
         except IndexError:
             print("Médico inválido.")
 
@@ -133,7 +133,7 @@ class SistemaHospital:
         try:
             medico = self._medicos[indice_medico - 1]
             medico.cancelar_consulta()
-            self.salvar_dados("dados_medicos.json")  # Salva os dados após cancelar consulta
+            self.salvar_dados("dados_medicos.json")  
         except IndexError:
             print("Médico inválido.")
 
@@ -154,10 +154,10 @@ class SistemaHospital:
 def main():
     sistema = SistemaHospital()
     nome_arquivo = "dados_medicos.json"  
-    sistema.carregar_dados(nome_arquivo)  # Carrega os dados ao iniciar o sistema
+    sistema.carregar_dados(nome_arquivo)  
 
     while True:
-        print("\n===== HOSPITAL FÁCIL =====")
+        print("\nSeja bem vindo ao hospital escola Princeton Plaisboro!")
         print("1) Listar médicos")
         print("2) Marcar consulta")
         print("3) Cancelar consulta")
