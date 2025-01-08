@@ -157,7 +157,7 @@ def main():
     sistema.carregar_dados(nome_arquivo)  
 
     while True:
-        print("\nSeja bem vindo ao hospital escola Princeton Plaisboro!")
+        print("\nSeja bem vindo ao hospital escola Princeton Plainsboro!")
         print("1) Listar médicos")
         print("2) Marcar consulta")
         print("3) Cancelar consulta")
