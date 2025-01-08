@@ -1,3 +1,4 @@
+# Este não é o código principal. 
 import math
 
 class Triangulo:
