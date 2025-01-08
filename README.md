@@ -72,10 +72,10 @@ A função main inicializa o sistema e oferece um menu interativo para o usuári
 > Como Executar
 
 Certifique-se de que o Python está instalado no seu computador.
-Salve o código do sistema em um arquivo chamado hospital.py.
+Salve o código do sistema em um arquivo chamado house.py.
 Crie um arquivo JSON chamado dados_medicos.json com os dados iniciais dos médicos.
 Execute o programa com o seguinte comando no terminal:
-python hospital.py
+python3 house.py
 ----------------------------------------------------------------------------------------------------
 
 Atividade livre - Encapsulamento, Herança e Polimorfismo
