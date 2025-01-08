@@ -16,7 +16,8 @@
 
 * Estrutura do Código
 1. Classes Principais
-> Pessoa (Classe Abstrata):
+> Pessoa (Classe Abstrata)
+
 Classe base que define a interface comum para todas as pessoas no sistema.
 
 - Atributos:
@@ -26,6 +27,7 @@ nome: Nome da pessoa.
 Métodos de acesso e modificação para o nome.
 
 > Medico (Classe Abstrata)
+
 Herda de Pessoa e define a interface para os médicos.
 
 - Atributos:
@@ -37,6 +39,7 @@ Herda de Pessoa e define a interface para os médicos.
     cancelar_consulta: Torna o médico disponível novamente.
 
 > Especialidades Médicas
+
 Subclasses de Medico que implementam o método especialidade:
 
 - Cardiologista
@@ -47,6 +50,7 @@ Entre outras.
 2. Classe Gerenciadora
 
 > SistemaHospital
+
 Gerencia a lista de médicos e operações relacionadas.
 
 - Funcionalidades:
@@ -66,6 +70,7 @@ A função main inicializa o sistema e oferece um menu interativo para o usuári
     Sair: Encerra o programa.
 
 > Como Executar
+
 Certifique-se de que o Python está instalado no seu computador.
 Salve o código do sistema em um arquivo chamado hospital.py.
 Crie um arquivo JSON chamado dados_medicos.json com os dados iniciais dos médicos.
