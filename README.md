@@ -60,8 +60,8 @@ Gerencia a lista de médicos e operações relacionadas.
     Salvar e carregar médicos do arquivo JSON.
 
 3. Execução do Sistema
+   
 A função main inicializa o sistema e oferece um menu interativo para o usuário realizar as seguintes ações:
-
     Listar Médicos: Exibe a lista de médicos cadastrados.
     Marcar Consulta: Agenda uma consulta com um médico disponível.
     Cancelar Consulta: Libera o médico para novas consultas.
