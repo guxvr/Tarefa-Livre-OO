@@ -1,0 +1,38 @@
+[
+    {
+        "crm": "12345",
+        "nome": "Dr. Jo\u00e3o Silva",
+        "especialidade": "Cardiologia",
+        "disponivel": true
+    },
+    {
+        "crm": "67890",
+        "nome": "Dra. Maria Oliveira",
+        "especialidade": "Dermatologia",
+        "disponivel": false
+    },
+    {
+        "crm": "11223",
+        "nome": "Dr. Pedro Santos",
+        "especialidade": "Ortopedia",
+        "disponivel": true
+    },
+    {
+        "crm": "44556",
+        "nome": "Dra. Ana Costa",
+        "especialidade": "Pediatria",
+        "disponivel": true
+    },
+    {
+        "crm": "77889",
+        "nome": "Dr. Carlos Lima",
+        "especialidade": "Neurologia",
+        "disponivel": false
+    },
+    {
+        "crm": "99001",
+        "nome": "Dra. Fernanda Souza",
+        "especialidade": "Ginecologia",
+        "disponivel": true
+    }
+]
